@@ -44,7 +44,7 @@ var featureLayer = L.mapbox.featureLayer()
         var info = '';
         
         info += '<div>',
-          info += '<h2> + feature.properties + '</h2>';
+          info += '<h2>' + feature.properties + '</h2>';
         info +=   '<p>' + feature.properties.LOCATION + '</p>';
         info += '</div>';
         
