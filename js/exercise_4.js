@@ -61,7 +61,7 @@ var featureLayer = L.mapbox.featureLayer()
     
     map.on('click', function(){
       $('#info').fadeOut(200);
-      $('info').empty();
+      $('#info').empty();
     })
     
     
