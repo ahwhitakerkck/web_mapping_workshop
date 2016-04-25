@@ -72,8 +72,9 @@ myLocation.addTo(map);
 map.on('locationfound', function(e){
   
   myLocation.setGeoJSON({
-    	type: 'Feature' ,
-    	geometry: { 'Point',
+    	type: 'Feature',
+    	geometry: { 
+          type: 'Point',
     	coordinates: [e.latlng.lng, e.latlng.lat]
   		},
         properties: {
