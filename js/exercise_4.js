@@ -2,10 +2,10 @@
 
 // Enter your mapbox map id here to reference it for the base layer,
 // this one references the ugly green map that I made.
-var mapId = 'will-breitkreutz.k6fj4l3f';
+var mapId = 'ahwhitakerkck.pp97ie58';
 
 // And this is my access token, use yours.
-var accessToken = 'pk.eyJ1Ijoid2lsbC1icmVpdGtyZXV0eiIsImEiOiItMTJGWEF3In0.HEvuRMMVxBVR5-oDYvudxw';
+var accessToken = 'pk.eyJ1IjoiYWh3aGl0YWtlcmtjayIsImEiOiJjaW5nMGl3MHkxOW5tdmZrcTB2bnFjYTdmIn0.EIx8qfEGiXGKwUTDLJablQ';
 
 // Create the map object with your mapId and token, 
 // referencing the DOM element where you want the map to go.
