@@ -66,4 +66,24 @@ var featureLayer = L.mapbox.featureLayer()
     
     
     
+    var myLocation = L.mapbox.featureLayer();
+myLocation.addTo(map);
+
+map.on('locationfound', function(e){
   
+  myLocation.setGeoJSON({
+    	type: 'Feature'
+    	geometry: { 'Point',
+    	coordinates: [e.latlng.lng, e.latlng.lat]
+  		},
+        properties: {
+            title: Here I am!',
+            "marker-color": '#ff8888',
+            "marker-symbol": 'star'
+        }
+   })
+})    
+  
+
+map.locate({ setView: true });
+)
