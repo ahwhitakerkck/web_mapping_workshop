@@ -17,7 +17,6 @@ map.setView([39, -96], 4);
 
 // Great, now we have a basic web map!
 
-
 var dataFileToAdd = 'data/parks.geojson';
 
 var featureLayer = L.mapbox.featureLayer()
@@ -33,3 +32,4 @@ var featureLayer = L.mapbox.featureLayer()
       })
       map.fitBounds(featureLayer.getBounds());
     })
+    
